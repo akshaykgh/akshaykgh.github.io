@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Akshaykumar ",
+  title: "Hi all, I'm Akshaykumar",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12vQUKyZXNNYfCRIzMF1SIvx4b4nXmNo4/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/akshaykgh",
+  linkedin: "https://www.linkedin.com/in/akshaykgh/",
+  gmail: "akshayhanmandla1997@gmail.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -52,12 +52,18 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      `⚡ Full-stack developer and Masters in Computer Science student at State University of 
+      New York at Binghamton with a strong foundation in 
+      backend systems, cloud platforms, and modern web technologies.`
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    
+    emoji(`⚡ Proven ability to design and 
+      deliver scalable, high-performance software solutions`),
+      /*
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
+      */
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,10 +79,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -87,6 +89,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "swift",
@@ -105,8 +111,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "spring boot",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "python",
@@ -126,23 +132,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "State University of New York at Binghamton",
+      logo: require("./assets/images/binghamon-university-logo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "August 2024 - December 2025",
+      /*
+      desc: "Participated in the research ofs XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
+      */
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "University of Mumbai ",
+      logo: require("./assets/images/mu-logo.jpeg"),
+      subHeader: "Bachelor of Engineering in Information Technology",
+      duration: "August 2015 - May 2019",
+      /*
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      */
     }
   ]
 };
@@ -174,29 +184,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Computer Programmer Intern",
+      company: "Global Health Impact",
+      companylogo: require("./assets/images/ghi_logo.png"),
+      date: "Feb 2025 – Present",
+      //desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed APIs using Python Flask to facilitate seamless data integration, reducing data retrieval time by 40% and enhancing backend functionality for the Global Health Impact Project",
+        "Designed and implemented intuitive user interfaces using React, increasing user engagement by 30% and improving overall user experience for global health analytics tools"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      role: "Staff Consultant",
+      company: "Oracle Financial Services",
+      companylogo: require("./assets/images/Oracle_logo.webp"),
+      date: "October 2022 – Aug 2024",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Collaborated with developers for the implementation of the ETF Model Portfolio Signal Delivery Project to provide improved dashboards and approval functionality of portfolios worth 4.5 $ billions in AUM which enhanced the eﬃciency of the approval process by 75%",
+        "Spearheaded the development of a batch rebalance feature, enabling portfolio managers to create and execute trades for multiple portfolios simultaneously, significantly reducing average processing time by 80%",
+        "Promoted clear coding standards among junior members while refining existing processes; refactored complex modules resulting in improved readability of over 50 key components that accelerated peer reviews",
+        "Mentored junior developers on best practices for writing reusable and scalable code, leading to a 35% improvementin the team’s overall coding eﬃciency by implementing modular techniques and design patterns"     
+      ]
+      },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Associate Consultant",
+      company: "Oracle Financial Services",
+      companylogo: require("./assets/images/Oracle_logo.webp"),
+      date: "August 2019 – Sep 2022",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Spearheaded the implementation of innovative features in a portfolio construction tool utilized by State Street Global Advisors, enhancing trade generation eﬃciency for 50+ portfolio managers who managed over $10 billion in assets",
+        "Created and deployed several REST APIs using Java 8 and Spring Boot, streamlining business processes and reducing process time by 30%, following agile methodologies, with version control managed via Git and Oracle DB as the database, deployed on Tomcat for a more eﬃcient user experience",
+        "Promoted clear coding standards among junior members while refining existing processes; refactored complex modules resulting in improved readability of over 50 key components that accelerated peer reviews",
+        "Completed a Proof-of-Concept unified banking solution project at Oracle by integrating multiple bank accounts of retail customers into a single portal, enabling seamless transactions and account management"
+      ]
     }
   ]
 };
@@ -212,31 +234,34 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  //subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Austism Prediction using Machine Learning",
+      projectDesc: "Developed a high-accuracy ASD prediction model using Decision Trees, Random Forest, and XGBoost with advanced preprocessing and hyperparameter tuning",
+      /*
       footerLink: [
         {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
-        //  you can add extra buttons here.
       ]
+        */
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Smart India Hackathon 2018 | Government of Maharashtra",
+      projectDesc: "Led a team to develop an Android app for atrocity case management, enabling FIR registration, payment distribution, and status notifications. Collaborated with government departments to design an intuitive interface, enhancing user accessibility",
+      /*
       footerLink: [
         {
           name: "Visit Website",
           url: "http://nextu.se/"
         }
       ]
+        */
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -372,8 +397,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+16073438852",
+  email_address: "akshayhanmandla1997@gmail.com"
 };
 
 // Twitter Section

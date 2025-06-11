@@ -20,13 +20,14 @@ export default function ExperienceCard({cardInfo, isDark}) {
   const GetDescBullets = ({descBullets, isDark}) => {
     return descBullets
       ? descBullets.map((item, i) => (
-          <li
+          <li style={{marginBottom : 20}}
             key={i}
             className={isDark ? "subTitle dark-mode-text" : "subTitle"}
           >
             {item}
           </li>
-        ))
+        )
+      )
       : null;
   };
 
