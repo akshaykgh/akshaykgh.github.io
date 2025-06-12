@@ -67,8 +67,9 @@ const Main = () => {
           */}
             <Profile />
             
-            
+             {/*
             <Footer />
+            */}
             <ScrollToTopButton />
           </>
         )}

@@ -164,15 +164,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -252,7 +252,7 @@ const bigProjects = {
     },
     {
       //image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Smart India Hackathon 2018 | Government of Maharashtra",
+      projectName: "Smart India Hackathon | Government of Maharashtra",
       projectDesc: "Led a team to develop an Android app for atrocity case management, enabling FIR registration, payment distribution, and status notifications. Collaborated with government departments to design an intuitive interface, enhancing user accessibility",
       /*
       footerLink: [
